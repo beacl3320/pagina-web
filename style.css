@@ -115,3 +115,23 @@ a:hover{
     font-size: 1.5rem;
     color: #585ab5;
 }
+
+.sectionThree{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.arrow{
+    display: flex;
+}
+
+.arrow i{
+    background: #242756;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.arrow i:hover{
+    color: #a097fc;
+}
