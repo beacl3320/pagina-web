@@ -21,18 +21,18 @@ body {
     align-items: center;
 }
 
-.logo {
+.navbar-logo {
     display: flex;
     align-items: center;
 }
 
-.logo a {
+.navbar-logo a {
     color: #f9e1f6;
     text-decoration: none;
     font-size: 20px;
 }
 
-.logo_size {
+.navbar-logo__size {
     width: 100px;
 }
 
@@ -247,6 +247,10 @@ a:hover {
 /* -------SÉPTIMA SECCIÓN------------*/
 
 .sectionSeven{
+    width: 100%;
+}
+
+.sectionSeven{
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
@@ -280,7 +284,9 @@ a:hover {
     padding-top: 10px;
 }
 
-.seven-container__img img:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.seven-container__img img:hover {
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
 
 /* -------OCTAVA SECCIÓN--------- */
 
@@ -297,7 +303,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
-    padding: 50px 0;
+    padding: 30px 0;
     align-items: center;
 }
 
@@ -354,8 +360,114 @@ a:hover {
 .eleven-container p{
     color: #242756;
     font-size: 1.5rem;
+    width: 10%;
 }
 
+/* ------DOCEAVA SECCIÓN------- */
+.sectionTwelve{
+    padding-bottom: 50px;
+}
+
+.twelve-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.twelve-container img{
+    width: 200px;
+    padding: 20px;
+}
+
+.twelve-container p{
+    color: #242756;
+    font-size: 1.5rem;
+    width: 10%;
+}
+
+/* -----TERCEAVA SECCIÓN---------- */
+
+.sectionThirteen h2{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 50px;
+    color:#242756;
+}
+
+.thirteen-container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.thirteen-container__img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 20%;
+}
+
+.thirteen-container__img img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.thirteen-container__img a{
+    text-decoration: none;
+    color: #242756;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+
+.thirteen-container__img p {
+    color: #585ab5;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+
+.thirteen-container__img img:hover{
+    /* filter: opacity(.5); */
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    filter: grayscale(80%);
+}
+
+/* <!-- -------CATORCEAVA SECCIÓN---------- --> */
+.sectionFourteen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.arrow i {
+    background: #242756;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #a097fc;
+    cursor: pointer;
+}
+
+.arrow i:hover {
+    color: #f9e1f6;
+}
+
+.arrow p {
+    color: #242756;
+    font-size: 1.2rem;
+}
 
 
 
